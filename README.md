@@ -19,3 +19,45 @@ This repository contains Earthnity's high-resolution wildfire hazard raster for 
 1. Clone this repository:
 ```bash
 git clone https://github.com/earthnity/portugal-wildfire-hazard.git
+
+Access the GeoTIFF from the data/ folder or download from here.
+
+Load it into any GIS platform (e.g., QGIS) or Python notebook:
+
+python
+Copy
+Edit
+import rasterio
+with rasterio.open('data/portugal_wildfire_risk_2030.tif') as src:
+    array = src.read(1)
+Use the raster values for:
+
+Zonal statistics
+
+Overlay with building footprints
+
+Risk classification (e.g., Z > 2 = Severe)
+
+📚 Data Sources
+MODIS Burned Area Product (MCD64A1)
+
+Sentinel-2 NDVI, NBR, SAVI
+
+SRTM Digital Elevation Model (DEM)
+
+ESA WorldCover 2021
+
+CORINE Land Cover (Portugal)
+
+Fire perimeter shapefiles (ICNF)
+
+LiDAR derived fuel type
+
+All datasets are processed within GEE or Python (see scripts/ folder).
+
+👩🏽‍💻 Authors
+This project is developed by Earthnity, a climate intelligence company building risk, resilience, and loss metrics for a volatile world.
+
+Primary Contributors
+Dr.Rajchandar
+Dr.RM
