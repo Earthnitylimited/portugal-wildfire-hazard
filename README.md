@@ -19,7 +19,6 @@ This repository contains Earthnity's high-resolution wildfire hazard raster for 
 1. Clone this repository:
 ```bash
 git clone https://github.com/earthnity/portugal-wildfire-hazard.git
-
 Access the GeoTIFF from the data/ folder or download from here.
 
 Load it into any GIS platform (e.g., QGIS) or Python notebook:
@@ -61,3 +60,18 @@ This project is developed by Earthnity, a climate intelligence company building 
 Primary Contributors
 Dr.Rajchandar
 Dr.RM
+
+📜 License
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+You are free to use, remix, and adapt the data and scripts for non-commercial use with attribution.
+
+🚀 What's Next
+Stochastic event simulation (SSP2/SSP3 for 2030–2050)
+
+Building-level MDR and loss metrics
+
+RAG-based interactive query system (“Ask Earthnity”)
+
+Risk API for insurers and real-estate firms
+
+Follow us or email us to collaborate!
