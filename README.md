@@ -57,9 +57,9 @@ All datasets are processed within GEE or Python (see scripts/ folder).
 👩🏽‍💻 Authors
 This project is developed by Earthnity, a climate intelligence company building risk, resilience, and loss metrics for a volatile world.
 
-Primary Contributors
-Dr.Rajchandar
-Dr.RM
+**Primary Contributors**
+- Dr. Rajchandar – Wildfire Modeling
+- Dr. RM – Geospatial Engineering
 
 📜 License
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
